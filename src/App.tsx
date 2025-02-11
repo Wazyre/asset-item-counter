@@ -61,6 +61,22 @@ function App() {
         <button className='counterBtn' type='button'><img src='' id='counter1' onClick={() => setCounter1(counter1 + 1)} /></button>
         <p>{counter1}</p>
       </div>
+      <div className='row'>
+        <button className='counterBtn' type='button'><img src='' id='counter1' onClick={() => setCounter2(counter2 + 1)} /></button>
+        <p>{counter1}</p>
+      </div>
+      <div className='row'>
+        <button className='counterBtn' type='button'><img src='' id='counter1' onClick={() => setCounter3(counter3 + 1)} /></button>
+        <p>{counter1}</p>
+      </div>
+      <div className='row'>
+        <button className='counterBtn' type='button'><img src='' id='counter1' onClick={() => setCounter4(counter4 + 1)} /></button>
+        <p>{counter1}</p>
+      </div>
+      <div className='row'>
+        <button className='counterBtn' type='button'><img src='' id='counter1' onClick={() => setCounter5(counter5 + 1)} /></button>
+        <p>{counter1}</p>
+      </div>
       <button id='reset' type='button' onClick={handleReset}>إعادة</button>
     </div>
   );
