@@ -3,7 +3,7 @@
   width: 100vw;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   /* direction: rtl; */
 }
@@ -36,4 +36,46 @@
 }
 .resetBtn {
   margin: 30px;
+}
+
+@media (max-width: 800px) {
+  .windowView {
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+
+  .col {
+    overflow-y: visible;
+  }
+
+  .imgBtn {
+    height: 100px;
+    width: 100px;
+  }
+    .resetBtn {
+      position: static;
+    }
+}
+
+@media (max-width: 1100px) and (min-width: 800px) {
+  .col {
+    overflow-y: visible;
+  }
+  .imgBtn {
+    height: 15vh;
+    width: 15vw;
+  }
+  .resetBtn {
+    position: absolute;
+    bottom: 10vh;
+    right: 15vw;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+  .resetBtn {
+    position: absolute;
+    bottom: 10vh;
+    right: 15vw;
+  }
 }
