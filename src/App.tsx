@@ -114,42 +114,51 @@ function App() {
         <div className='row'>
           <button className='counterBtn col' type='button'><img className='imgBtn' src={buttonImgs[0]} id='counter1' onClick={() => setCounter1(counter1 + 1)} /></button>
           {counter1}
+          <button className='minusBtn' onClick={() => setCounter1(counter1 - 1)}>-</button>
         </div>
         <div className='row'>
           <button className='counterBtn' type='button'><img className='imgBtn' src={buttonImgs[1]} id='counter2' onClick={() => setCounter2(counter2 + 1)} /></button>
           {counter2}
+          <button className='minusBtn' onClick={() => setCounter2(counter2 - 1)}>-</button>
         </div>
         <div className='row'>
           <button className='counterBtn' type='button'><img className='imgBtn' src={buttonImgs[2]} id='counter3' onClick={() => setCounter3(counter3 + 1)} /></button>
           {counter3}
+          <button className='minusBtn' onClick={() => setCounter3(counter3 - 1)}>-</button>
         </div>
         <div className='row'>
           <button className='counterBtn' type='button'><img className='imgBtn' src={buttonImgs[3]} id='counter4' onClick={() => setCounter4(counter4 + 1)} /></button>
           {counter4}
+          <button className='minusBtn' onClick={() => setCounter4(counter4 - 1)}>-</button>
         </div>
       </div>
       <div className='col'>
         <div className='row'>
           <button className='counterBtn' type='button'><img className='imgBtn' src={buttonImgs[4]} id='counter5' onClick={() => setCounter5(counter5 + 1)} /></button>
           {counter5}
+          <button className='minusBtn' onClick={() => setCounter5(counter5 - 1)}>-</button>
         </div>
         <div className='row'>
           <button className='counterBtn' type='button'><img className='imgBtn' src={buttonImgs[5]} id='counter6' onClick={() => setCounter6(counter6 + 1)} /></button>
           {counter6}
+          <button className='minusBtn' onClick={() => setCounter6(counter6 - 1)}>-</button>
         </div>
         <div className='row'>
           <button className='counterBtn' type='button'><img className='imgBtn' src={buttonImgs[6]} id='counter7' onClick={() => setCounter7(counter7 + 1)} /></button>
           {counter7}
+          <button className='minusBtn' onClick={() => setCounter7(counter7 - 1)}>-</button>
         </div>
         <div className='row'>
           <button className='counterBtn' type='button'><img className='imgBtn' src={buttonImgs[7]} id='counter8' onClick={() => setCounter8(counter8 + 1)} /></button>
           {counter8}
+          <button className='minusBtn' onClick={() => setCounter8(counter8 - 1)}>-</button>
         </div>
       </div>
       <div className='col'>
         <div className='row'>
           <button className='counterBtn' type='button'><img className='imgBtn' src={buttonImgs[8]} id='counter9' onClick={() => setCounter9(counter9 + 1)} /></button>
-          {counter8}
+          {counter9}
+          <button className='minusBtn' onClick={() => setCounter9(counter9 - 1)}>-</button>
         </div>
       </div>
       
